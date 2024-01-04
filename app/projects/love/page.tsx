@@ -23,7 +23,7 @@ const Love = () => {
     left: "52%",
   });
   return (
-    <main className="absolute inset-0 w-full h-screen grid place-items-center">
+    <>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -134,7 +134,7 @@ const Love = () => {
           Try again
         </Button>
       </section>
-    </main>
+    </>
   );
 };
 
